@@ -1,0 +1,37 @@
+
+@media screen and (min-width: 800px) {
+    .main-topo{
+        display: flex;
+       align-items: center;
+       flex-direction: row-reverse;
+        } 
+          .img-topo > img{
+        width: 100%;  
+    }   .prime-cartaz{
+        display: flex;
+        align-items: center;
+    } .titulo-main{
+        max-width: 400px;
+    } 
+ 
+}
+    @media  screen and (min-width: 1200px) {
+
+        .loja-canais-parceiro{
+            display: flex;
+            align-items: center;
+          
+        } .card-device{
+            display: flex;
+        } .titulo-main{
+               max-width: 800px;
+               padding-right: 10em;
+             
+        } .btn > button{
+          height: 3em;
+         
+        } .footer-links > li > a{
+            font-size: 18px;
+        }
+        
+}
